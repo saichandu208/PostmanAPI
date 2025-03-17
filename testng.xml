@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/SAI CHANDH/IdeaProjects/RestAssuresBeginerDemo">
+        <classes>
+            <class name="com.SaiChan.TestCases.API_TestNG_GetRequest">
+                <methods>
+                    <include name="Api02"/>
+                </methods>
+            </class>
+            <class name="com.SaiChan.TestCases.Api01">
+                <methods>
+                    <include name="api01"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

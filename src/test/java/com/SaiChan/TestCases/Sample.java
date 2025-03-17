@@ -14,5 +14,6 @@ public class Sample {
             .then().log().all()
             .statusCode(200);
 
+
 }
 }
